@@ -1,0 +1,22 @@
+{
+  "name": "awesome-utils",
+  "version": "0.0.0",
+  "description": "awesome utils for js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisiur/awesome-utils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "lisiurday",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisiur/awesome-utils/issues"
+  },
+  "homepage": "https://github.com/lisiur/awesome-utils#readme"
+}
