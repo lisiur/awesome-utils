@@ -1,4 +1,4 @@
-function whoTouchedMyProp(obj, prop) {
+function debugProp(obj, prop) {
 	obj[`_${prop}`] = obj[prop]
 	Object.defineProperty(obj, prop, {
 		set: function(newProp) {debugger;this[`_${prop}`] = newProp},
@@ -6,4 +6,4 @@ function whoTouchedMyProp(obj, prop) {
 	})
 }
 
-export default whoTouchedMyProp
+module.exports = debugProp

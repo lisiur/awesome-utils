@@ -1,8 +1,11 @@
-import whoTouchedMyProp from './src/who-touched-my-prop'
+const debugProp = require('./src/debug-prop')
+const promiseTimer = require('./src/promise-timer')
+const requiredArg = require('./src/required-arg')
 
 const utils = {
-	whoTouchedMyProp
-	
+	debugProp,
+	promiseTimer,
+	requiredArg,
 }
 
-export default utils
+module.exports = utils
